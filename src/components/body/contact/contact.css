@@ -1,0 +1,68 @@
+.contacs{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+.section-title{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.contac-container{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+    margin: 16px 0px;
+}
+
+.contact-social{
+ max-width: 60%;
+ font-size: 20px;
+ align-items: center;
+}
+
+
+
+
+.download-section{
+    
+    justify-content:center;
+    background-color: #70a1ff;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.download-section a{
+    text-decoration: none;
+    color: black;
+}
+
+.myconData{
+
+}
+
+
+
+
+@media only screen and (max-width:720px){
+    .contac-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+     .contact-social{
+         max-width: 100%;
+         font-size: 16px;
+         margin-bottom: 12px;
+     }
+     .download-section{
+         font-size: 16px;
+         max-width: 100%;
+     }
+}

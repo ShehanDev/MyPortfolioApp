@@ -1,0 +1,19 @@
+.internship{
+    width: 45%;
+    margin: 16px 0px ;
+    padding: 6px 0px;
+    
+
+}
+.intern-title{
+    font-size: 24px;
+    font-weight: 600;
+}
+@media only screen and (max-width:720px){
+    .internship{
+        width: 100%;}
+
+    .intern-title{
+        font-size: 20px;
+    }
+}

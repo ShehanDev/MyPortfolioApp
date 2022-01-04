@@ -1,0 +1,19 @@
+.Social-contacs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Social-media-icon-div{
+    padding: 6px;
+    cursor: pointer;
+    margin: 6px ;
+}
+.social-icon{
+    height: 50px;
+}
+
+@media only  screen  and (max-width:720px){
+    .social-icon{
+        height: 20px;
+    }
+}

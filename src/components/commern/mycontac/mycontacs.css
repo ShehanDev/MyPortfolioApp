@@ -1,0 +1,28 @@
+.mydata-container{
+    display:flex;
+    flex:1;
+    flex-direction:column;
+}
+.mydata-contac1{
+    display:flex;
+    flex-direction:column;
+   
+}
+.mc-icon{
+    height:20px;
+}
+
+.con-data{
+    font-size:20px;
+    font-weight:500;
+    color:#130f40;
+}
+
+@media only screen and (max-width:720px){
+    .con-data{
+        font-size:15px;
+    } 
+    .mc-icon{
+        height:15px;
+    }
+}

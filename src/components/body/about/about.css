@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@2000&family=Josefin+Sans&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Josefin+Sans&family=Oswald:wght@700&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Josefin+Sans&family=Oswald:wght@1000&family=Ubuntu&display=swap');
+.about{
+     padding-bottom: 48px;
+}
+
+.about-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.name-text-salution{
+    font-family: 'Arvo', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Ubuntu', sans-serif;   
+    font-size: 36px;
+    color: #1e3799;
+}
+
+.name-text-my{
+    font-family: 'Arvo', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 55px;
+    color: #e74c3c;
+    font-weight: bolder;
+}
+
+.myPic{
+    height: 420px;
+   
+}
+
+@media only  screen  and (max-width:720px){
+    .about-top{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .myPic{
+        flex-direction: column;
+        height: 175px;
+    }
+
+    .name-text-salution{
+        font-size: 20px;
+    }
+    
+    .name-text-my{
+        font-size: 26px;
+    }
+    
+}
