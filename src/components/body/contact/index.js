@@ -16,7 +16,7 @@ function Contacts() {
                    <MyContacData />
                </div>
                <div className='download-section'>
-                   <a download href={require('../../../assets/Shehan_Mallawaarachchi-CV.pdf').default}>
+                   <a download href={require('../../../assets/Shehan-MallawaarachchiCV.pdf').default}>
                    <i class="fi fi-rr-download"></i> Download Resume
                    </a>
                </div>
